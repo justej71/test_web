@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Melati Wedding Gallery - Fotografi Pernikahan Premium</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">Melati Wedding</div>
+            <button class="menu-toggle" id="menuToggle">☰</button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#about">Tentang Kami</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#packages">Paket</a></li>
+                <li><a href="#gallery">Galeri</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+                <li><a href="#kontak" class="btn-consult">Konsultasi</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-carousel">
+            <img src="images/banner1.jpg" alt="Banner 1" class="hero-image active">
+            <img src="images/banner2.jpg" alt="Banner 2" class="hero-image">
+            <img src="images/banner3.jpg" alt="Banner 3" class="hero-image">
+            <img src="images/banner4.jpg" alt="Banner 4" class="hero-image">
+            <img src="images/banner5.jpg" alt="Banner 5" class="hero-image">
+        </div>
+        
+        <div class="hero-overlay"></div>
+        
+        <div class="hero-content">
+            <h1>Momen Indah yang Abadi</h1>
+            <p class="hero-tagline">Abadikan Kenangan Pernikahan Anda Selamanya</p>
+            <p class="hero-desc">Fotografi profesional dengan sentuhan artistik yang mewujudkan cinta Anda dalam setiap bingkai</p>
+            <div class="carousel-controls">
+                <button class="carousel-btn prev" id="prevBtn">&#10094;</button>
+                <button class="carousel-btn next" id="nextBtn">&#10095;</button>
+            </div>
+            <div class="carousel-indicators">
+                <span class="indicator active" data-slide="0"></span>
+                <span class="indicator" data-slide="1"></span>
+                <span class="indicator" data-slide="2"></span>
+                <span class="indicator" data-slide="3"></span>
+                <span class="indicator" data-slide="4"></span>
+            </div>
+            <a href="#kontak" class="btn btn-primary">Mulai Cerita Anda</a>
+        </div>
+        
+        <div class="floral-decoration left-top">🌿</div>
+        <div class="floral-decoration right-top">🌸</div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about-section" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>Tentang Melati Wedding Gallery</h2>
+                <p>Kami menghadirkan fotografi pernikahan yang autentik dan emosional</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Melati Wedding Gallery adalah studio fotografi pernikahan terkemuka di Depok, Jawa Barat. Kami berkomitmen menangkap setiap momen berharga dalam pernikahan Anda dengan profesionalisme dan artistik tinggi.</p>
+                    <p>Dengan pengalaman bertahun-tahun, kami memahami bahwa pernikahan Anda adalah cerita unik yang perlu diabadikan dengan sempurna.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <h3>500+</h3>
+                        <p>Pernikahan Diabadikan</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>100%</h3>
+                        <p>Kepuasan Klien</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>15+</h3>
+                        <p>Tahun Pengalaman</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Packages Section -->
+    <section class="section packages-section" id="packages">
+        <div class="container">
+            <div class="section-header">
+                <h2>Paket Layanan Kami</h2>
+                <p>Pilih paket yang sesuai dengan kebutuhan Anda</p>
+            </div>
+            <div class="packages-grid">
+                <div class="package-card">
+                    <div class="package-header">Basic</div>
+                    <h3>Dokumentasi Standart</h3>
+                    <div class="package-price">Mulai dari<br><span>Rp 3.500.000</span></div>
+                    <ul class="package-features">
+                        <li>✓ 8 Jam Sesi Foto</li>
+                        <li>✓ 300+ Foto Edit</li>
+                        <li>✓ Album Digital</li>
+                        <li>✓ 1 Fotografer</li>
+                    </ul>
+                    <a href="#kontak" class="btn btn-outline">Pilih Paket</a>
+                </div>
+                <div class="package-card featured">
+                    <div class="package-header">Popular</div>
+                    <h3>Dokumentasi Premium</h3>
+                    <div class="package-price">Mulai dari<br><span>Rp 7.500.000</span></div>
+                    <ul class="package-features">
+                        <li>✓ 12 Jam Sesi Foto</li>
+                        <li>✓ 500+ Foto Edit</li>
+                        <li>✓ Album Cetak Premium</li>
+                        <li>✓ 2 Fotografer</li>
+                        <li>✓ Video Cinematic 4K</li>
+                    </ul>
+                    <a href="#kontak" class="btn btn-primary">Pilih Paket</a>
+                </div>
+                <div class="package-card">
+                    <div class="package-header">Eksklusif</div>
+                    <h3>Paket Deluxe</h3>
+                    <div class="package-price">Mulai dari<br><span>Rp 15.000.000+</span></div>
+                    <ul class="package-features">
+                        <li>✓ Full Day Coverage</li>
+                        <li>✓ 1000+ Foto Edit</li>
+                        <li>✓ Album Cetak Mewah</li>
+                        <li>✓ 3 Fotografer & Videografer</li>
+                        <li>✓ Video Profesional FHD</li>
+                        <li>✓ Konsultasi Gratis</li>
+                    </ul>
+                    <a href="#kontak" class="btn btn-outline">Pilih Paket</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="section portfolio-section" id="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2>Portfolio: Cerita Cinta Kami</h2>
+                <p>Koleksi momen indah dari pernikahan-pernikahan istimewa</p>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="images/banner1.jpg" alt="Portfolio 1">
+                    <div class="portfolio-overlay">
+                        <h4>Pernikahan Adat</h4>
+                        <p>Pembacaan Akad</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/banner2.jpg" alt="Portfolio 2">
+                    <div class="portfolio-overlay">
+                        <h4>Resepsi Mewah</h4>
+                        <p>Momen Kebersamaan</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/banner3.jpg" alt="Portfolio 3">
+                    <div class="portfolio-overlay">
+                        <h4>Pre-wedding</h4>
+                        <p>Momen Romantis</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/banner4.jpg" alt="Portfolio 4">
+                    <div class="portfolio-overlay">
+                        <h4>Intimate Moment</h4>
+                        <p>Ekspresi Autentik</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/banner5.jpg" alt="Portfolio 5">
+                    <div class="portfolio-overlay">
+                        <h4>Detail & Dekorasi</h4>
+                        <p>Keindahan Setiap Sudut</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/banner1.jpg" alt="Portfolio 6">
+                    <div class="portfolio-overlay">
+                        <h4>Bridal Portrait</h4>
+                        <p>Keanggunan Momen</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="section testimonials-section" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>Testimoni Klien Kami</h2>
+                <p>Kepuasan klien adalah prioritas utama kami</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"Fotografer Melati Wedding sangat profesional dan kreatif. Hasil foto kami sangat memuaskan dan penuh emosi!"</p>
+                    <h4>Sinta & Budi</h4>
+                    <p class="testimonial-date">Desember 2024</p>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"Pemotret yang sangat detail dan responsif. Sungguh pengalaman yang tidak akan pernah kami lupakan!"</p>
+                    <h4>Eka & Roni</h4>
+                    <p class="testimonial-date">Oktober 2024</p>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"Foto pernikahan kami sempurna! Setiap momen tertangkap dengan indah dan natural. Rekomendasi terbaik!"</p>
+                    <h4>Ratna & Agus</h4>
+                    <p class="testimonial-date">Agustus 2024</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="section gallery-section bg-light" id="gallery">
+        <div class="container">
+            <div class="section-header">
+                <h2>Galeri Lengkap</h2>
+                <p>Lihat lebih banyak koleksi foto pernikahan kami</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item"><img src="images/banner1.jpg" alt="Gallery 1"></div>
+                <div class="gallery-item"><img src="images/banner2.jpg" alt="Gallery 2"></div>
+                <div class="gallery-item"><img src="images/banner3.jpg" alt="Gallery 3"></div>
+                <div class="gallery-item"><img src="images/banner4.jpg" alt="Gallery 4"></div>
+                <div class="gallery-item"><img src="images/banner5.jpg" alt="Gallery 5"></div>
+                <div class="gallery-item"><img src="images/banner1.jpg" alt="Gallery 6"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact-section" id="kontak">
+        <div class="container">
+            <div class="section-header">
+                <h2>Hubungi Kami</h2>
+                <p>Mari wujudkan cerita pernikahan Anda yang sempurna</p>
+            </div>
+            
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <div class="info-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Lokasi</h3>
+                        <p>Jl. Diamond Lake Side, Pasir Putih, Kec. Sawangan, Kota Depok, Jawa Barat 16519</p>
+                        <a href="https://maps.google.com/?q=Jl.+Diamond+Lake+Side+Depok" target="_blank" class="btn btn-outline">Buka di Maps</a>
+                    </div>
+                    
+                    <div class="info-card">
+                        <i class="fas fa-phone"></i>
+                        <h3>WhatsApp</h3>
+                        <p>Hubungi kami untuk konsultasi gratis</p>
+                        <a href="https://wa.me/6208111234011" target="_blank" class="btn btn-whatsapp">
+                            <i class="fab fa-whatsapp"></i> Chat WhatsApp
+                        </a>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrapper">
+                    <h3>Kirim Pesan Kami</h3>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <input type="text" placeholder="Nama Lengkap" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" placeholder="No. Telepon">
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Pesan Anda..." rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="hours-info">
+                <h3>Jam Operasional</h3>
+                <div class="hours-grid">
+                    <div class="hour-item"><strong>Minggu</strong><br>09:00 - 22:00</div>
+                    <div class="hour-item"><strong>Senin-Jumat</strong><br>16:30 - 22:00</div>
+                    <div class="hour-item"><strong>Sabtu</strong><br>15:00 - 22:00</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h4>Melati Wedding Gallery</h4>
+                    <p>Fotografi pernikahan premium dengan sentuhan artistik yang mewujudkan cinta Anda dalam setiap bingkai.</p>
+                    <div class="social-links">
+                        <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" title="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" title="TikTok"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Menu</h4>
+                    <ul>
+                        <li><a href="#about">Tentang Kami</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#packages">Paket</a></li>
+                        <li><a href="#gallery">Galeri</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Kontak</h4>
+                    <ul>
+                        <li><a href="https://wa.me/6208111234011" target="_blank">WhatsApp: 0811-1234-011</a></li>
+                        <li>Email: info@malatigallery.com</li>
+                        <li>Lokasi: Depok, Jawa Barat</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Melati Wedding Gallery. Semua hak dilindungi.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
